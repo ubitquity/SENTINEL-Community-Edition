@@ -31,10 +31,10 @@
   "homepage": "https://neura.help/sentinel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/neaboratory/sentinel-community"
+    "url": "https://github.com/ubitquity/SENTINEL-Community-Edition"
   },
   "bugs": {
-    "url": "https://github.com/neaboratory/sentinel-community/issues"
+    "url": "https://github.com/ubitquity/SENTINEL-Community-Edition/issues"
   },
   "engines": {
     "node": ">=16.0.0"
