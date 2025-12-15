@@ -11,7 +11,7 @@
 
 SENTINEL is a security layer that protects your LLM applications from prompt injection, jailbreaking, and data leakage.
 
-**Community Edition** provides basic protection for free. For advanced threat detection, [upgrade to Professional](https://neura.help/sentinel/pricing).
+**Community Edition** provides basic protection for free. For advanced threat detection, [upgrade to Professional](https://neura.help/sentinel/#pricing).
 
 ---
 
@@ -89,7 +89,7 @@ console.log(result.response);  // Safe, filtered response
 | Custom signatures | Enterprise |
 | SIEM integration | Enterprise |
 
-[View full comparison →](https://neura.help/sentinel/pricing)
+[View full comparison →](https://neura.help/sentinel/#pricing)
 
 ---
 
@@ -181,32 +181,9 @@ const sentinel = new Sentinel({
 
 ---
 
-## 📈 Upgrade Path
-
-Ready for more protection?
-
-```bash
-# Upgrade to Professional
-npm install @neura-help/sentinel-pro --registry=https://npm.neura.help
-```
-
-```javascript
-import { Sentinel } from '@neura-help/sentinel-pro';
-
-const sentinel = new Sentinel({
-  licenseKey: 'SENT-PR-XXXXX-XXXXX-XXXXXXXX'
-});
-
-await sentinel.initialize();
-```
-
-[Get your license key →](https://neura.help/sentinel/pricing)
-
----
-
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](https://github.com/neaboratory/sentinel-community/blob/main/CONTRIBUTING.md) for guidelines.
+We welcome contributions!
 
 ---
 
@@ -221,9 +198,9 @@ See [LICENSE](./LICENSE) for details.
 ## 🔗 Links
 
 - **Website**: [neura.help/sentinel](https://neura.help/sentinel)
-- **Documentation**: [docs.neura.help/sentinel](https://docs.neura.help/sentinel)
-- **GitHub**: [github.com/neaboratory/sentinel-community](https://github.com/neaboratory/sentinel-community)
-- **Upgrade**: [neura.help/sentinel/pricing](https://neura.help/sentinel/pricing)
+- **Documentation**: [neura.help/sentinel/docs](https://neura.help/sentinel/docs)
+- **GitHub**: [github.com/ubitquity/SENTINEL-Community-Edition](https://github.com/ubitquity/SENTINEL-Community-Edition)
+- **Upgrade**: [neura.help/sentinel/#pricing](https://neura.help/sentinel/#pricing)
 
 ---
 

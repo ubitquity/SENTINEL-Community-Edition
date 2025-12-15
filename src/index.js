@@ -5,7 +5,7 @@
  * https://neura.help/sentinel
  * 
  * Basic AI security hardening for LLM applications.
- * For advanced features, upgrade to Professional: https://neura.help/sentinel/pricing
+ * For advanced features, upgrade to Professional: https://neura.help/sentinel/#pricing
  */
 
 import { InputSanitizerBasic } from './layers/sanitizer-basic.js';
@@ -52,7 +52,7 @@ class Sentinel {
 ║  🔒 Meta-prompt wrapping                                      ║
 ║  🔒 Canary leak detection                                     ║
 ║                                                               ║
-║  → https://neura.help/sentinel/pricing                        ║
+║  → https://neura.help/sentinel/#pricing                       ║
 ╚═══════════════════════════════════════════════════════════════╝
         `);
     }
@@ -135,7 +135,7 @@ class Sentinel {
             redactions: outputResult.redactions,
             inputThreats: inputResult.threats,
             edition: 'community',
-            notice: 'Using Community Edition. Upgrade for advanced protection: https://neura.help/sentinel/pricing'
+            notice: 'Using Community Edition. Upgrade for advanced protection: https://neura.help/sentinel/#pricing'
         };
     }
 
@@ -196,7 +196,7 @@ class Sentinel {
                 business: '$1,999/mo',
                 enterprise: 'Custom'
             },
-            upgradeUrl: 'https://neura.help/sentinel/pricing'
+            upgradeUrl: 'https://neura.help/sentinel/#pricing'
         };
     }
 }
