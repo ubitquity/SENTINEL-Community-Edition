@@ -166,16 +166,16 @@ const sentinel = new Sentinel({
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│ Feature                    │ Community │ Professional  │
-├────────────────────────────┼───────────┼───────────────┤
-│ Threat Signatures          │     5     │    200+       │
-│ Input Patterns             │     7     │     25+       │
-│ PII Patterns               │     4     │     15+       │
-│ Heuristic Detection        │     ❌    │      ✅       │
-│ Behavioral Analysis        │     ❌    │      ✅       │
-│ Meta-Prompt Wrapping       │     ❌    │      ✅       │
-│ Canary Detection           │     ❌    │      ✅       │
-│ Price                      │   FREE    │   $499/mo     │
+│ Feature                    │ Community │ Professional   │
+├────────────────────────────┼───────────┼────────────────┤
+│ Threat Signatures          │     5     │    200+        │
+│ Input Patterns             │     7     │     25+        │
+│ PII Patterns               │     4     │     15+        │
+│ Heuristic Detection        │     ❌    │      ✅        │
+│ Behavioral Analysis        │     ❌    │      ✅        │
+│ Meta-Prompt Wrapping       │     ❌    │      ✅        │
+│ Canary Detection           │     ❌    │      ✅        │
+│ Price                      │   FREE    │   $499/mo      │
 └─────────────────────────────────────────────────────────┘
 ```
 
