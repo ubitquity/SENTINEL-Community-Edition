@@ -1,0 +1,47 @@
+{
+  "name": "@neura-help/sentinel-community",
+  "version": "1.1.0",
+  "description": "SENTINEL V1.1 Community Edition - Basic AI security hardening for LLM applications. Free & Open Source.",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./layers/sanitizer": "./src/layers/sanitizer-basic.js",
+    "./layers/filter": "./src/layers/output-filter-basic.js",
+    "./utils/config": "./src/utils/config.js",
+    "./utils/logger": "./src/utils/threat-logger.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "ai",
+    "security",
+    "llm",
+    "prompt-injection",
+    "jailbreak",
+    "hardening",
+    "sentinel",
+    "neura",
+    "open-source"
+  ],
+  "author": "UBITQUITY INC.",
+  "license": "MIT",
+  "homepage": "https://neura.help/sentinel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neaboratory/sentinel-community"
+  },
+  "bugs": {
+    "url": "https://github.com/neaboratory/sentinel-community/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ]
+}
