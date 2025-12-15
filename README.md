@@ -2,7 +2,6 @@
 
 **Free & Open Source AI Security Hardening**
 
-[![npm version](https://img.shields.io/npm/v/@neura-help/sentinel-community)](https://www.npmjs.com/package/@neura-help/sentinel-community)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
