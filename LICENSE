@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 UBITQUITY, INC
+Copyright (c) 2025 UBITQUITY INC.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,28 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Scope of MIT License
+
+This MIT License applies ONLY to the following SENTINEL V1.0 Community Edition components:
+
+### Licensed Files:
+- `sdk/core/sentinel-core.js` - Core SDK interfaces
+- `sdk/core/layers/sanitizer-basic.js` - Basic input sanitization
+- `sdk/core/layers/output-filter-basic.js` - Basic output filtering
+- `sdk/core/utils/config.js` - Configuration utilities
+- `docs/*` - Documentation
+- `examples/*` - Example code
+
+### NOT Licensed Under MIT:
+The following components are PROPRIETARY and require a commercial license:
+- `sdk/proprietary/*` - All proprietary modules
+- `sdk/layers/heuristic-detector.js` - Advanced threat detection
+- `sdk/layers/meta-prompt-wrapper.js` - Enterprise security templates  
+- `sdk/layers/canary-adjudicator.js` - Output validation
+- Threat signature databases
+- Enterprise features
+
+See LICENSE.commercial for proprietary component terms.
