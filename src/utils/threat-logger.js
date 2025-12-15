@@ -1,8 +1,22 @@
 /**
  * SENTINEL V1.1 - Threat Logger
- * 
+ *
  * Centralized logging for security events, threats, and audit trail.
  */
+
+// Polyfill fetch for Node.js < 18
+let fetch;
+if (typeof globalThis.fetch === 'undefined') {
+    try {
+        const nodeFetch = await import('node-fetch');
+        fetch = nodeFetch.default;
+    } catch (e) {
+        // node-fetch not available, will fall back to console logging
+        fetch = null;
+    }
+} else {
+    fetch = globalThis.fetch;
+}
 
 class ThreatLogger {
     constructor(config) {
@@ -270,9 +284,15 @@ class ThreatLogger {
      */
     async _logToRemote(entry) {
         const endpoint = this.config.get('remoteLogEndpoint');
-        
+
         if (!endpoint) {
             console.warn('Remote logging enabled but no endpoint configured');
+            this._logToConsole(entry);
+            return;
+        }
+
+        if (!fetch) {
+            console.warn('Fetch API not available. Install node-fetch or upgrade to Node.js >= 18');
             this._logToConsole(entry);
             return;
         }
